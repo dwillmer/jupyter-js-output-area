@@ -27,7 +27,7 @@
       });
   }
   
-  fetchJSONFile('./data/data.json').then(function(messages) {
+  fetchJSONFile('http://localhost:8000/data.json').then(function(messages) {
       var model = new jupyterOutputArea.OutputModel();
       var view = new jupyterOutputArea.OutputView(model, document);
       document.getElementById('screen').appendChild(view.el);

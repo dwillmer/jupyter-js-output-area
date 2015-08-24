@@ -2,7 +2,11 @@
 Javascript APIs for Jupyter output areas
 
 ## Demo
-See [./demo/demo.html](demo/demo.html).
+Run from /demo/data directory:
+```python
+python server.py
+```
+Then load [./demo/demo.html](demo/demo.html).
 
 ## Install
 ### Stable (npm):
